@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Sidebar from '../components/Sidebar';
 import Home from '../pages/Home';
 import About from '../pages/About';
-// import ItemDetails from './pages/ItemDetails';
+import ItemDetails from '../pages/ItemDetails';
 import NotFound from '../pages/NotFound';
 import './App.css'
 
@@ -23,6 +23,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="*" element={<NotFound />} />
+              <Route path="/item/:taskId" element={<ItemDetails />} />
             </Routes>
           </main>
         </div>
