@@ -1,0 +1,9 @@
+[
+    { "task": "Study celestial navigation", "completed": true },
+    { "task": "Calibrate star charts", "completed": false },
+    { "task": "Prepare mission manifest", "completed": false },
+    { "task": "Review spacecraft systems", "completed": false },
+    { "task": "Conduct pre-flight checks", "completed": false },
+    { "task": "Initiate launch sequence", "completed": false },
+    { "task": "Achieve stable orbit", "completed": false }
+  ]

@@ -1,0 +1,130 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: #f4f4f4; 
+  margin: 0; 
+}
+
+.content-wrapper {
+  display: flex;
+  flex-grow: 1;
+  padding: 20px; 
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #e0e0e0; 
+  padding: 10px;
+  border-right: 1px solid #ddd; 
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 5px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  display: block; 
+  padding: 5px 10px;
+  border-radius: 5px; 
+}
+
+.sidebar a:hover {
+  background-color: #d0d0d0;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+nav {
+  background-color: #333; 
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  margin-top: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center; 
+  padding: 8px;
+  border-bottom: 1px solid #eee; 
+}
+
+li:last-child {
+  border-bottom: none; 
+}
+
+li span {
+    flex-grow: 1;
+    margin-left: 8px; 
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
